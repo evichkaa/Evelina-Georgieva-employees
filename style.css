@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color:lightskyblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type=file] {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
